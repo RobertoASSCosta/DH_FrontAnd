@@ -1,0 +1,31 @@
+/* fonte do corpo da pag */
+body{
+    font-family: 'Times New Roman', Times, serif;
+}
+
+/* caracteristicas do id=pCab */
+#pCab {color: rgb(152, 235, 235);
+    background-color: rgb(219, 210, 210);
+    display: inline;
+    text-align: left;}
+
+/* cor da h2 */
+#inicio {color: brown;}
+
+/* carateristicas do id=ci */
+#ci{
+    color: azure;
+    background-color: black;
+    display:inline-table;
+    text-align: left;
+}
+/* tamanho h3 */
+.titulo {font-size: 22px;}
+
+/* cor do texto */
+p{color:rgb(117, 112, 122);}
+
+
+
+
+

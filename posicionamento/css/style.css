@@ -1,0 +1,68 @@
+* {
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+body{
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height:110%;
+    background-color: darkgoldenrod;
+}
+
+h1{
+    color: dimgray;
+    border-bottom: 2px solid;
+}
+
+p{
+    font-weight: bold;
+}
+
+img {
+    height: 300px;
+    background-color: #fff;
+}
+
+.sobreposicao {
+    position: relative;
+    margin: -50px;
+    top: 100px;
+}
+
+#dados1{
+    z-index: 1;
+}
+
+#dados3{
+    z-index: 2;
+}
+
+#dados2{
+    z-index: 3;
+}
+
+#dados1:hover{
+    cursor: pointer;
+    z-index: 5;
+}
+
+#dados3:hover{
+    cursor: pointer;
+    z-index: 5;
+}
+
+#dados2:hover{
+    cursor: pointer;
+    z-index: 5;
+}
+
+#maoDosDados {
+    height: 200px;
+    position: absolute;
+    bottom: 10px;
+    left: 40%;
+    z-index: 10;
+}
