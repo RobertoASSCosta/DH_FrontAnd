@@ -1,0 +1,52 @@
+<!--Formulário 1 referente a aula do dia 21/06/2021  -->
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário two</title>
+    <!-- Estilo da fonte -->
+    <style> body{font-family: 'Arial';}</style>
+</head>
+
+<body>
+    
+    <h1>Formulário</h1>
+    <!-- Campos do formulário -->    
+        <form>
+            <label for="nome">Nome</label>
+            <input type="text" id="nome" name="nome" placeholder="Digite seu nome.">
+            <br>
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" placeholder="Digite seu e-mail.">
+            <br>
+            <label for="senha">Senha</label>
+            <input type="password" id="senha" name="senha" placeholder="Digite sua senha.">
+            <br> <br>
+            <!-- Formulário no estilo radio -->
+            <label> Comeu pizza esse mês? </label>
+            <br><br>
+            <input type="radio" id="sim" name="pizza" value="sim"><label for="sim">Sim</label>
+            <br>
+            <input type="radio" id="nao" name="pizza" value="nao"><label for="nao">Não</label>
+            <br><br>
+            <!-- Formulário no estilo checkbox -->
+            <label for="sabor">Qual seu sabor predileto!</label>
+            <br><br>
+            <input type="checkbox" name="sabor" id="mussarella" value="mussarella"><label for="mussarella">Mussarella</label>
+            <br>
+            <input type="checkbox" name="sabor" id="calabresa" value="calabresa"><label for="calabresa">Calabresa</label>
+            <br>
+            <input type="checkbox" name="sabor" id="portuguesa" value="protuguesa"><label for="portuguesa">Portuguesa</label>
+            <br>
+            <input type="checkbox" name="sabor" id="carne" value="carne"><label for="carne">Carne com bacon</label>
+            <br>
+            <input type="checkbox" name="sabor" id="frango" value="frango"><label for="frango">Frango com chedda</label>
+            <br><br>
+            
+            <!-- O button é definido para melhora desempenho no CSS -->
+            <button>Enviar</button>
+        </form>
+</body>
+</html>
